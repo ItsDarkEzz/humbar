@@ -1,0 +1,29 @@
+name: Bug report
+description: Something in Humbar doesn't work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead? Screenshots help.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Humbar version
+      description: Settings → System → About
+      placeholder: "1.0.0 (4)"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac model
+      placeholder: "macOS 26.4, MacBook Pro 14\" M3"
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Music & lyrics, AI agents, Notifications, Hub, Small islands, Settings / licence, Other]
