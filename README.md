@@ -40,7 +40,7 @@ Works with any player — Yandex Music, Spotify, Apple Music, a song in a browse
 <td width="50%" valign="top">
 
 ### 🤖 AI agents in the notch
-**Claude Code**, **Codex**, **OpenCode** and **Droid**. Allow, Always or Deny with a comment, with a diff preview for edits. Answer an agent’s multiple-choice questions one by one. Review a Markdown plan and approve it or ask for changes. Track Claude’s 5-hour and weekly limits, with a heads-up at 80 % and 95 %. Each agent can have a **pet** that stands beside the island and acts out what the agent is doing — Humbar’s own Hum, any pet in the open Codex pet format, or one from the codex-pets.net community list.
+**Claude Code**, **Codex**, **OpenCode** and **Droid**. Allow, Always or Deny with a comment, with a diff preview for edits. Answer an agent’s multiple-choice questions one by one. Review a Markdown plan and approve it or ask for changes. Track Claude’s 5-hour and weekly limits, with a heads-up at 80 % and 95 %. While you are in the agent’s own window its requests stay off the island, and one you answer there leaves the island at once. Each agent can have a **pet** that stands beside the island, on either side, and acts out what the agent is doing — Humbar’s own Hum, any pet in the open Codex pet format, or one from the codex-pets.net community list.
 
 </td>
 </tr>

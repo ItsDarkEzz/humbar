@@ -2,6 +2,17 @@
 
 What changed in each Humbar release. [Русская версия](CHANGELOG.ru.md) · [Download](https://github.com/ItsDarkEzz/humbar/releases/latest)
 
+## 1.0.2 — 2026-10-07
+
+### Added
+- **Island size.** Settings → Island → Size: the width of the player, and the width and height of the open island. A taller island is used, not padded — its tiles and lists grow with it.
+- **Pets on either side.** Settings → Pets → Position: right or left of the island.
+- **Agents stay quiet while you are in them.** While the terminal, editor or Claude app running a session is in front, its questions, permission requests and “done” stay off the island; a request still unanswered comes up when you switch away. One switch in Settings → AI Agents.
+- **A request answered in the agent leaves the island at once** instead of waiting out its timeout.
+
+### Fixed
+- **The volume and brightness indicator was empty when nothing was playing.** The island opened its wings but showed no icon, bar or percent until a player had a track. It now shows them every time, and agent and timer chips step aside instead of sitting over the level bar.
+
 ## 1.0.1 — 2026-10-07
 
 ### Added
