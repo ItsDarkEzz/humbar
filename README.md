@@ -25,7 +25,7 @@ Synced lyrics, notifications, a hub of everyday tools — and your AI coding age
 
 The notch is the one place on your screen you always glance at and never use. Humbar makes it the calm center of your Mac: what’s playing and the words being sung, the message that just arrived, the timer that’s running — and when Claude Code, Codex, OpenCode or Droid needs a decision, the question appears right there, so you can answer without hunting for a terminal tab.
 
-Try every feature free for 7 days, then keep it for **$3.99, once** — no subscription, no account, every update included. There is no Humbar server: nothing about you leaves your Mac except what a feature clearly needs.
+Try every feature free for 7 days, then keep it for **$3.99, once** — no subscription, no account, every update included, and from 1.0.3 Humbar installs them itself. Nothing about you leaves your Mac except what a feature clearly needs.
 
 ## Features
 
@@ -99,7 +99,8 @@ Every file is backed up before it changes, and **Disconnect** removes exactly Hu
 
 ## Privacy
 
-- **No Humbar server, no analytics, no Keychain.**
+- **No account, no analytics, no Keychain.**
+- **One request a day to `pay.humbar.app`** for the current version and the list of revoked licence keys. It carries no identifier, no version and nothing else about you or your Mac, and the server keeps no log of it. Updates are downloaded from this repository’s releases and checked against a manifest signed by Humbar. Your licence key itself is still verified on your Mac, offline.
 - Lyrics sources receive only the track title, artist and duration. Lyrics aren’t saved to disk.
 - Agent hooks talk only to `127.0.0.1:47431`, protected by a random per-install token.
 - The community pet list (optional) is requested from `codex-pets.net` only when you press Browse in Settings; installing a pet downloads its package from there. The pets are third-party work, not part of Humbar.

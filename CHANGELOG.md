@@ -2,6 +2,15 @@
 
 What changed in each Humbar release. [Русская версия](CHANGELOG.ru.md) · [Download](https://github.com/ItsDarkEzz/humbar/releases/latest)
 
+## 1.0.3 — 2026-10-11
+
+### Added
+- **Humbar updates itself.** Once a day it looks for a new version, downloads it, checks it against a manifest signed by Humbar and installs it when the island is idle — nothing playing, no agent waiting, you away from the keyboard. Your settings and permissions stay. Settings → System → Updates has “Check Now” and a switch to install only on your click. This is the last version you download by hand.
+- **Refunded and leaked licence keys can be switched off.** Together with the update check Humbar reads a signed list of revoked keys. A valid key keeps working offline, as before.
+
+### Changed
+- **One request a day to pay.humbar.app.** It returns the current version and the revoked-key list. It carries no identifier, no version and nothing else about you or your Mac, and the server keeps no log of it.
+
 ## 1.0.2 — 2026-10-07
 
 ### Added
