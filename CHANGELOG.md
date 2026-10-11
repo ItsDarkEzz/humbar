@@ -2,6 +2,14 @@
 
 What changed in each Humbar release. [Русская версия](CHANGELOG.ru.md) · [Download](https://github.com/ItsDarkEzz/humbar/releases/latest)
 
+## 1.0.4 — 2026-10-12
+
+### Fixed
+- **Side islands no longer cover menu bar icons.** With a crowded menu bar — a small or scaled resolution, many icons — messages, pets, the timer and the other small islands sat on top of the icons next to the notch. Humbar now measures the room before the first icon and fits into it: the islands get compact first (a call becomes just its handset), then the ones that still don’t fit hide behind a “+N” chip — click it to see them. They don’t drop onto the screen below either. A message with no room beside the notch opens under the menu bar only while you read it.
+
+### Added
+- **Settings → Island → Side islands.** Automatic (the new behaviour), Beside the notch (always, as before) or Under the menu bar.
+
 ## 1.0.3 — 2026-10-11
 
 ### Added
